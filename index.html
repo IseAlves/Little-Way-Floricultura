@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Front</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="btn-mobile">
+            <ion-icon name="grid-outline"></ion-icon>
+        </div>
+    </header>
+
+    <main id="home">
+        <div class="container">
+            <div class="icons">
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href=""><ion-icon name="cart-outline"></ion-icon></a>
+                <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+            <div class="title">
+                <h1>Flores</h1>
+                <h2>são poesias</h2>
+                <h3>da natureza.</h3>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h1>Nós somos a LITTLE WAY...</h1>
+                <p>A LITTLE WAY é uma boutique de flores, que nasceu com o desejo de produzir, de forma sustentável, buquês e arranjos com flores naturais que durassem por muito tempo. Seja bem-vindo ao nosso universo!</p>
+                <div class="box-title">
+                    <p><b>5 Bons motivos para você ter mais plantas <br>em casa<br></b>
+                    <br><span>1. Plantas inspiram relaxamento;</span>
+                    <br><span>2. Elas são umidificadores naturais;</span>
+                    <br><span>3. Elas inspiram criatividade</span>
+                    <br><span>4. Suas cores acalmam os olhos</span>
+                    <br><span>5.  O estresse vai embora</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="image/Flower5.jpeg" alt="">
+                    <h1>Vaso de Flores</h1>
+                    <p>Ideal para presentear ou decorar ambientes, principalmente para quem deseja um arranjo natural, que dure por mais tempo.</p>
+                    <button>Ver Mais</button>
+                </label>
+
+                <label class="card" for="item-2" id="song-2">
+                    <img src="image/Flower6.jpeg" alt="">
+                    <h1>Buquês</h1>
+                    <p>Feliz em apresentar nossa coleção de buquês de flores naturais, com composições, texturas e cores vibrantes proporcionando um visual elegante e descontroladamente boêmio.</p>
+                    <button>Ver Mais</button>
+                </label>
+
+                <label class="card" for="item-3" id="song-3">
+                    <img src="image/Flower7.jpeg" alt="">
+                    <h1>Grinaldas</h1>
+                    <p>A famosa tiara de flores é uma espécie de arco em que as flores são pregadas, coladas ou costuradas para criar um visual bem romântico. Com ela você pode prender a parte da frente do cabelo e é uma ótima opção para quem tem franja, por exemplo.</p>
+                    <button>Ver Mais</button>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="contact-left">
+                    <h1>Contact With We</h1>
+                    <div class="linha"></div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>sac@littleway.com.br</span>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+55 51 1234-5678</span>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>Porto Alegre, Brazil</span>
+                </div>
+                <div class="contact-right">
+                    <h1>Fill the form</h1>
+                    <div class="linha"></div>
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Name">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Copyright 2023 <a href="">LITTLE WAY</a> All Rights Reserved</span>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-mobile").click(function(){
+                $(".menu-mobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+</html>
