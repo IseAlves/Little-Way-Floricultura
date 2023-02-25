@@ -24,7 +24,7 @@ Imagem do código funcionando:
 <div style "display: inline_block">
 
 
-<img aling="center" alt="Ise-HTML" height="180" width="333" src="https://user-images.githubusercontent.com/98955674/221378976-5da65ffe-0196-47eb-80af-8776f3c3db41.jpg"> <img aling="center" alt="Ise-HTML" height="180" width="333" src="https://user-images.githubusercontent.com/98955674/221378982-d437bcd7-8e40-4961-a490-4ba6f671d1e7.jpg"> <img aling="center" alt="Ise-HTML" height="180" width="333" src="https://user-images.githubusercontent.com/98955674/221378987-5fc8e9f4-fd86-466a-a3c8-4f19cd058d7b.jpg">
+<img aling="center" alt="Ise-HTML" height="180" width="300" src="https://user-images.githubusercontent.com/98955674/221378976-5da65ffe-0196-47eb-80af-8776f3c3db41.jpg"> <img aling="center" alt="Ise-HTML" height="180" width="300" src="https://user-images.githubusercontent.com/98955674/221378982-d437bcd7-8e40-4961-a490-4ba6f671d1e7.jpg"> <img aling="center" alt="Ise-HTML" height="180" width="300" src="https://user-images.githubusercontent.com/98955674/221378987-5fc8e9f4-fd86-466a-a3c8-4f19cd058d7b.jpg">
 
 </div><br>
 
